@@ -15,8 +15,14 @@ const account2 = {
   interestRate: 1.5,
   pin: 2222,
 };
+const account3 = {
+  owner: "Sahir Bhagat",
+  movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
+  interestRate: 1.2, // %
+  pin: 3333,
+};
 
-const accounts = [account1, account2];
+const accounts = [account1, account2,account3];
 
 const date = document.querySelector(".date");
 const currBal = document.querySelector(".current-value");
