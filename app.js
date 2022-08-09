@@ -5,7 +5,7 @@ document.addEventListener("contextmenu", function (e) {
 
 const account1 = {
   owner: "Bhargav Garge",
-  movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
+  movements: [20000, 450, -00, 3000, -650, -130, 70000, 1300],
   interestRate: 1.2, // %
   pin: 1111,
 };
@@ -17,7 +17,7 @@ const account2 = {
 };
 const account3 = {
   owner: "Sahir Bhagat",
-  movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
+  movements: [200, 450, -40, 3000, -650, -130, 70, 1300],
   interestRate: 1.2, // %
   pin: 3333,
 };
